@@ -6,8 +6,9 @@ Library  SeleniumLibrary
 *** Variables ***
 
 
-*** Test Cases ***
+*** Test Cases **
 
+Logged out
 
 
 *** Keywords ***
