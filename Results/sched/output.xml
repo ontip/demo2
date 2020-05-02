@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.7 on win32)" generated="20200416 13:56:12.391" rpa="false">
+<suite id="s1" name="Locators" source="c:\development\robot-scripts\amazon\tests\Locators.robot">
+<test id="s1-t1" name="Should be able to search product">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.amazon.nl/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200416 13:56:15.620" level="INFO">Opening browser 'chrome' to base url 'http://www.amazon.nl/'.</msg>
+<status status="PASS" starttime="20200416 13:56:15.617" endtime="20200416 13:57:44.578"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200416 13:57:47.828" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200416 13:57:44.703" endtime="20200416 13:57:47.837"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=twotabsearchtextbox</arg>
+<arg>Ferrari 458</arg>
+</arguments>
+<msg timestamp="20200416 13:57:48.277" level="INFO">Typing text 'Ferrari 458' into text field 'id=twotabsearchtextbox'.</msg>
+<status status="PASS" starttime="20200416 13:57:48.275" endtime="20200416 13:59:18.270"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200416 13:59:21.275" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200416 13:59:18.272" endtime="20200416 13:59:21.276"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="nav-search"]/form/div[2]/div/input</arg>
+</arguments>
+<msg timestamp="20200416 13:59:21.279" level="INFO">Clicking button 'xpath=//*[@id="nav-search"]/form/div[2]/div/input'.</msg>
+<status status="PASS" starttime="20200416 13:59:21.278" endtime="20200416 13:59:25.489"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200416 13:59:27.495" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200416 13:59:25.491" endtime="20200416 13:59:27.496"></status>
+</kw>
+<kw name="Click Image" library="SeleniumLibrary">
+<doc>Clicks an image identified by ``locator``.</doc>
+<arguments>
+<arg>Ferrari 458 Lederen Hard Case voor 6-4.7-Inch iPhone - Donkergrijs</arg>
+</arguments>
+<msg timestamp="20200416 13:59:27.498" level="INFO">Clicking image 'Ferrari 458 Lederen Hard Case voor 6-4.7-Inch iPhone - Donkergrijs'.</msg>
+<status status="PASS" starttime="20200416 13:59:27.497" endtime="20200416 13:59:31.335"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200416 13:59:31.337" endtime="20200416 13:59:34.685"></status>
+</kw>
+<status status="PASS" starttime="20200416 13:56:15.608" endtime="20200416 13:59:34.690" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200416 13:56:12.484" endtime="20200416 13:59:34.697"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Locators">Locators</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
