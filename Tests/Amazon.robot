@@ -7,7 +7,7 @@ Library  SeleniumLibrary
 
 
 *** Test Cases ***
-Try to make d test cASE
+Try to make a test case
     Logged out
     jhjhjhhjhjhhjhjhj
 
