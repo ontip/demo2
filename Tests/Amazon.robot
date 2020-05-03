@@ -6,9 +6,12 @@ Library  SeleniumLibrary
 *** Variables ***
 
 
-*** Test Cases **
+*** Test Cases ***
 Try to make d test cASE
     Logged out
     jhjhjhhjhjhhjhjhj
 
+
+Feature 1 test
+    log   feature1
 *** Keywords ***
